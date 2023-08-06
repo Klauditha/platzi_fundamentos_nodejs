@@ -15,3 +15,9 @@ NodeJs es una de las formas más rapidas y escalares para correr código desde e
   - Convierte el Javascript en código de maquina en lugar de interpretarlo
 - Centrado en modulos
 - Orientado a eventos: Existe un bucle de eventos que se ejecuta constantemente. Lo que nos permite programar de forma reactiva, podemos programar con la logica "Cuando sucede algo, se ejecuta esa parte del codigo y a su vez dispara otra parte".
+
+## EventLoop
+
+- Asincrona por diseño. Es bucle que se gestiona de forma asincrona y automatica de todos los eventos de tu aplicación. No va a bloquearse. Altamente concurrente.
+- Evente Queue: Contiene todos los eventos que se generan por nuestro código (funciones, peticiones, etc). Estos eventos quedan en una cola que van pasando uno a uno al EventLoop.
+- Thread Pool: Se encarga de gestionar los eventos de forma asincrona. Una vez terminado lo devuelve al Event Loop. El Event Loop vera si lo pqasa a Event Queue o no.
