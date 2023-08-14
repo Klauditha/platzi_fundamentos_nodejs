@@ -26,3 +26,20 @@ NodeJs es una de las formas más rapidas y escalares para correr código desde e
 
 - https://nodemon.io/   npx nodemon archivo.js
 - https://pm2.keymetrics.io/
+
+## Global
+
+En Node tenemos el objeto *global* que contiene los metodos y propiedades basicas que usamos en Node (Ej: setTimeOut).
+
+*global* es el equivalente de *this* en el navegador
+
+En node this es un alias de global
+  this === global // true
+
+Algunos metodos que se incluten en el global son:
+
+- *setTimeOut* : se encarga de llamar a otra funcion despues de un periodo de tiempo.
+- *setInterval* : llama a otra función cada intervalo de tiempo.
+- *setImmediate* : Equivalente a setTimeOut pero son tiempo 0.
+- *clearTimeOut* : detiene un setTimeOut.
+- *claerInterval* : detiene un setInterval.
