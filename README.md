@@ -43,3 +43,20 @@ Algunos metodos que se incluten en el global son:
 - *setImmediate* : Equivalente a setTimeOut pero son tiempo 0.
 - *clearTimeOut* : detiene un setTimeOut.
 - *claerInterval* : detiene un setInterval.
+
+## Console
+
+Podemos imprimir todo tipo de valores por nuestra terminal
+
+- *console.log*:  Recibe cualquier tipo y lo muestra en la consola.
+- *console.info*: Es equivalente a log pero es usado para informar.
+- *console.error*: Es equivalente a log pero es usado para errores.
+- *console.warn* : es equivalente a log pero es usado para warning.
+- *console.table*: muestra una tabla a partir de un objeto.
+- *console.count*: inicia un contador autoincremental.
+- *console.countReset*: reinicia el contador a 0.
+- *console.time*: inicia un cronometro en ms.
+- *console.timeEnd*: Finaliza el cronometro.
+- *console.group*: permite agrupar errores mediante identación.
+- *console.groupEnd*: finaliza la agrupación.
+- *console.clear*: Limpia la consola.
