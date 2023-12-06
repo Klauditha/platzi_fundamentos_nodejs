@@ -28,9 +28,19 @@ NodeJs es una de las formas más rapidas y escalares para correr código desde e
 
 ## Herramientas para ser mas felices: Nodemon y PM2
 
-- https://nodemon.io/   npx nodemon archivo.js
-- https://pm2.keymetrics.io/
+- https://nodemon.io/    
+  - npm install -p nodemon
+  - npx nodemon archivo.js
 
+- https://pm2.keymetrics.io/
+  - npm install -g pm2
+  - pm2 start "NOMBRE APLICACION"
+  - pm2 monitor
+  - pm2 status
+  - pm2 logs
+  - pm2 stop 0
+  - pm2 stop "NOMBRE APLICACION"
+  
 ## Global
 
 En Node tenemos el objeto *global* que contiene los metodos y propiedades basicas que usamos en Node (Ej: setTimeOut).
