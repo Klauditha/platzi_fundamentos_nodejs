@@ -95,3 +95,9 @@ const myprocess = spawn('ls')
 
 process.stdout.on("data", data => console.log(data.toString()));
 process.on("exit", () => console.log("process end"));
+
+## Modulos Nativos en C++
+
+### Instalación node-gyp
+
+``` npm i -g node-gyp ```

@@ -21,11 +21,12 @@ exec('node modulos/consola.js', (err,stdout,stderr) =>{
 
 //let proceso = spawn('ls', ['-la']);
 let proceso = spawn('dir');
+console.log(proceso);
 console.log(proceso.pid);
 console.log(proceso.connected);
 
 proceso.stdout.on('data', function(dato){
-    console.log('esta muerto');
+    console.log('¿esta muerto?');
     console.log(proceso.killed);
     console.log(dato.toString());
 });
