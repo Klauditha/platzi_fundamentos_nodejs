@@ -19,7 +19,7 @@ function hablar(nombre){
 
 function adios(nombre){
     return new Promise((resolve,reject) => {
-        setTimeout(function(){
+        setTimeout(function(){console.assert(first, second)
             console.log("Adios "+ nombre);
             resolve();
         });
