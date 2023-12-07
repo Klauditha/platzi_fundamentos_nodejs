@@ -12,7 +12,7 @@ function seRompeAsincrona(cb){
             return 3+z;
         }
         catch(err){
-            console.error("Error en la funcion asincrona");
+            console.error("Error en la funcion asincrona SeRompeAsincrona");
             cb(err)
         }
         
@@ -20,7 +20,7 @@ function seRompeAsincrona(cb){
 }
 try{
     //seRompre();
-    //otraFuncion();
+    otraFuncion();
     seRompeAsincrona(function(err){
         console.log('hayerror: '+ err.message);
     });
