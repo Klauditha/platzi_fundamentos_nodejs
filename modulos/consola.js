@@ -13,12 +13,12 @@ var tabla = [
 ]
 console.table(tabla)
 
-console.group('bla bla');
+console.group('Conversacion');
 console.log("bla bla bla");
 console.log("bla bla bla");
 console.log("bla bla bla");
 console.log("bla bla bla");
-console.groupEnd('bla bla');
+console.groupEnd('Conversacion');
 console.log("bla bla bla");
 
 function function1(){
