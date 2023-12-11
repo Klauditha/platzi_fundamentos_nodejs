@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "is-odd": "^3.0.1",
     "nodemon": "^3.0.2",
     "python2": "^0.0.1",
     "uuid": "^7.0.3"
