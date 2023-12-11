@@ -105,3 +105,5 @@ process.on("exit", () => console.log("process end"));
 ## NPM 
 
 - https://www.npmjs.com/
+- Inicializar npm omitiendo preguntas
+    ``` npm init -y ``` 
