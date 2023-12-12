@@ -107,3 +107,8 @@ process.on("exit", () => console.log("process end"));
 - https://www.npmjs.com/
 - Inicializar npm omitiendo preguntas
     ``` npm init -y ``` 
+
+
+## Debugger
+    ``` node --inspect archivo.js ``` 
+    ``` npx nodemon --inspect archivo.js ``` 

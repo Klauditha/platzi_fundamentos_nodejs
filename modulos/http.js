@@ -8,7 +8,9 @@ function router(req, res) {
 
   switch (req.url) {
     case '/hola':
-      res.write('Hola, que tal');
+      let saludo = hola();
+      //res.write('Hola, que tal');
+      res.write(saludo);
       res.end();
       break;
     default:
@@ -22,5 +24,9 @@ function router(req, res) {
   // Escribir la respuesta a usuario
   res.write('Hpla ya se usar HTTP en node js');
   res.end();*/
+}
+
+function hola() {
+  return 'Hola, que tal';
 }
 console.log('Escuchando el puerto 3000');
