@@ -124,3 +124,8 @@ Lo otro es tener siempre el callback como parametro al final de la función.
 
 ## Automatización de procesos
   ``` npm i gulp gulp-server-livereload ``` 
+
+## Aplicaciones de escritorio
+
+### Electron
+  ``` npm i electron ``` 
