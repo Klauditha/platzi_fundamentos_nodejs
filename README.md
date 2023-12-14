@@ -119,6 +119,8 @@ El primer parametro de la función siempre deberia ser un error.
 Convención pensando que 'Todo puede fallar'.
 Lo otro es tener siempre el callback como parametro al final de la función.
 
-
-### Scraping
+## Scraping
    ``` npm i puppeteer ``` 
+
+## Automatización de procesos
+  ``` npm i gulp gulp-server-livereload ``` 
